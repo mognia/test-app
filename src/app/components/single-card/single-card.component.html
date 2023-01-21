@@ -1,1 +1,10 @@
-<p>single-card works!</p>
+<div class="box">
+  <img class="main-img" [src]='"assets/"+card?.imageUrl'>
+  <div class="box-detail">
+    <p class="targetUrl">{{card?.targetUrl}}</p>
+    <div class="avatar" *ngIf="card?.postedBy">
+      <img  *ngIf="card?.postedBy?.avatarUrl" [src]="'assets/'+card?.postedBy?.avatarUrl">
+      <p class="author">{{card?.postedBy?.name}}</p>
+    </div>
+  </div>
+</div>

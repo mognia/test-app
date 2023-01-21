@@ -1,0 +1,10 @@
+.card-box {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.single-card {
+  height: fit-content;
+  background: #d9d9d9;
+}

@@ -1,0 +1,19 @@
+.box {
+  color: #2968cb;
+  cursor: pointer;
+}
+.main-img{
+  max-width: 18rem;
+}
+.targetUrl {
+  text-align: center;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.avatar img{
+  max-width: 3rem;
+}
