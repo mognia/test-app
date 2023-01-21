@@ -8,11 +8,9 @@ import {CardModel} from "../../models/card.model";
 })
 export class SingleCardComponent implements OnInit {
 @Input () card: CardModel | undefined
-
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.card)
   }
 
 }

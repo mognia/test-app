@@ -1,3 +1,12 @@
+<div class="cacul">
+  <div class="cal-box">
+  <input type="text" [(ngModel)]="price">
+  <button (click)="calcWage()">Calculate Wage</button>
+  </div>
+
+  Your Wage is equal to : {{wage}}
+</div>
+
 <div class="card-box">
   <app-single-card class="single-card" *ngFor="let card of cardData" [card]="card" ></app-single-card>
 </div>

@@ -8,3 +8,8 @@
   height: fit-content;
   background: #d9d9d9;
 }
+.cacul {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
